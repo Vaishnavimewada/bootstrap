@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+.carousel-item img{
+    width: 100%;
+    height: 93vh;
+}
+.about_img{
+    min-width: 100%;
+    max-height: 280;
+}
+.service img{
+    width: 100%;
+    height: 100%;
+}
+ .row>*{ 
+    padding-right: calc(var(--bs-gutter-x)/2);
+    padding-left: calc(var(--bs-gutter-x)/2);
+}
+.offer_style{
+    background-color: #a5dcef;
+}
+footer p{
+    margin-bottom: 0;
+}
+.car img{
+   width: 120px;
+   height: 250px;
+}
+.ga img{
+    width: 350px;
+    height: 300px;
+}
+
+/* responsive code */
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
